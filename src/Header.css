@@ -1,0 +1,71 @@
+.header{
+    width:100%;
+    height:80px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+logo{
+    color: #FECA30;
+    float: left;
+    /* margin-right: 500px; */
+    font-family: cursive;
+    font-size: 39px;
+    width: 315px;
+    font-weight: bold;
+}
+ul {list-style-type: none;
+    margin-left:100px;
+    text-align:right;
+   margin-right:40px;
+   display:flex;
+   justify-content:space-between;
+   flex-direction:row;
+}
+
+li a {
+padding:20px;
+font-family:Helvetica;
+text-align:right;
+text-decoration:none;
+color:white;
+}
+
+.text{
+    color:white;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin-top:200px;
+}
+
+
+ .notmenu h3{
+     font-size:40px;
+ }
+body{
+    background: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+  }
+  
+
+  
+      @media(min-width:48em){
+          .icon{display:none;}
+      }
+  @media (max-width: 48em) {
+    
+       .menu{
+        display: none;
+       
+      }
+      .icon{
+          display:block;
+          height:30px;
+          margin-right:15px;
+
+      }
+
+    
+    }
